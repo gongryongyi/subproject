@@ -62,12 +62,12 @@ body{
     position: absolute;     /* 여기는 배경위로 겹칠수 있게 해주는 명령어*/
     background-color: #595252;
     color: white;
-    top: 81.6%;
+    top: 1032.1px;
     width: 100vw;
-    height: 15vh;
+    height: 14.9vh;
     margin-bottom: 0;
     font-size: 3rem;
-    line-height: 290%;
+    line-height: 168px;
     border: 0;
     text-align: center;
     
@@ -80,20 +80,20 @@ body{
 
 .introduce-clik{
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
-    top: 50%;
+    top: 650px;
     padding: 15px 60px;
     background-color: #4444448a;
     border-radius: 10px;
     width: 60vw;
     height: 25vh;
-    right: 300px;
-    left: 300px;
+    margin-left: 400px;
+    margin-right: 300px;
     position: absolute;
     opacity: 0;
     transition: all ease 0.5s;
-    
+    line-height: 4rem;
 }
 .title2:hover{
     color: black;
@@ -109,6 +109,12 @@ body{
 }
 
 /*profile -----------------------------------------*/
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #8099A4 400px, #ffffff 300px);
+  }
 
 .back a{
     color: black;
@@ -127,6 +133,11 @@ body{
     text-align: right;
     padding-right: 40%;
     color: rgba(0, 0, 0, 0.2);
-    font: ;
+    
+    
 }
+
+
+
+
 
