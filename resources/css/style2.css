@@ -299,7 +299,7 @@ body {
 .more-icon{
    position: absolute;
    position: relative;
-   left: 14px;
+   left: 5px;
    top: 17px;
    width: 50px;
    height: 50px;
@@ -315,7 +315,7 @@ body {
     width: 80px;
     height: 200px;
     top: 65px;
-    left: 320px;
+    left: 310px;
    
 }
 
