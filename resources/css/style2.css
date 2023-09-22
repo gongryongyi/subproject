@@ -1,360 +1,154 @@
+*{margin: 0;}
 body {
-    height: 100vh;
-    margin: 0;
-    background: linear-gradient(90deg, #e9c962 400px, #ffffff 300px);
-    display: flex;
-    position: relative;
-    
-  }
+   height: 100vh;
+   margin: 0;
+   display: flex;
+   position: relative;
+   
+ }
 
 
 .back a{
-    color: black;
-    text-decoration: none;
+   color: black;
+   text-decoration: none;
 }
 
 
 .back a:hover{
-    color: white;
+   color: white;
 }
 
 .back{
-    padding-left: 20px;
-    width: 90px;
-    font-family: 'Nanum Pen Script', cursive;
-    
-    font-size: 2.5rem;
+   padding-left: 20px;
+   width: 90px;
+   font-family: 'Nanum Pen Script', cursive;
+   
+   font-size: 2.5rem;
 }
 
 .profile{
-    position: absolute;
-    right: 658px;
-    top: 1px;
-    color: #DCBE8A;
-    font-size: 7rem;
-    margin-top: 40px;
-    font-family: 'Nanum Pen Script', cursive;
-    
-    
+   position: absolute;
+   right: 658px;
+   top: 1px;
+   color: #DCBE8A;
+   font-size: 7rem;
+   margin-top: 40px;
+   font-family: 'Nanum Pen Script', cursive;
+   
+   
 }
 
 /* 왼쪽 사진 ------------------------------*/
-.img1{
-    padding-left: 70px !important;
-    width: 250px;
-    padding-top: 70px;
+
+.top-icon{
+padding-left: 80px;
+padding-top: 40px;
+width: 80px;
+}
+
+.manager{
+  padding-left: 55px;
+  font-size: 20px;
+}
+
+.top hr{
+  width: 260px;
+  margin: 0;
+}
+/*회원관리*/
+.member{
+  display: flex;
+}
+
+h3{
+   padding-top: 20px;
+  padding-left: 20px;
+  display: inline-flex;
+}
+
+
+/*상품관리*/
+.product{
+   display: flex;
+ }
+
+ /*주문관리*/
+.order{
+   display: flex;
  }
  
- .minseo{
-     font-family: 'Nanum Pen Script', cursive;
-     font-size: 30px;
-     padding-left: 130px;
-     margin-right: 0;
-     width: 150px;
+ /*취소/환불관리*/
+.cancell{
+   display: flex;
  }
 
- .img2{
-    position: absolute;
-    bottom: 300px;
-    left: 93px;
+ 
+
+  /*정산관리*/
+.calculate{
+   display: flex;
+ }
+ 
+
+  /*게시판관리*/
+.board{
+   display: flex;
  }
 
- .instagram{
-    position: absolute;
-    bottom: 265px;
-    left: 78px;
-    color: white;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 20px;
-    
+
+  /*통계분석*/
+.statistics{
+   display: flex;
  }
- .img3{
-    position: absolute;
-    bottom: 300px;
-    left: 233px;
+ 
+
+  /*서비스관리*/
+.service{
+   display: flex;
  }
+ 
 
- .korea{
-    position: absolute;
-    bottom: 262px;
-    left: 226px;
-    color: white;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 20px;
+  /*쿠폰관리*/
+.cupon{
+   display: flex;
  }
-
- .img4{
-    position: absolute;
-    bottom: 170px;
-    left: 90px;
-    color: white;
- }
-
- .tel{
-    position: absolute;
-    bottom: 130px;
-    left: 65px;
-    color: white;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 20px;
- }
-
- .img5{
-    position: absolute;
-    bottom: 170px;
-    left: 230px;
-    color: white;
- }
-
- .mail{
-    position: absolute;
-    bottom: 130px;
-    left: 204px;
-    color: white;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 20px;
- }
- /*오른쪽 애들-----------------------------------------------*/
-
- /*1table----------------------------------------------------*/
- .first-sub{
-   position: absolute;
-   left: 550px;
-    width: 250px;
-    bottom: 700px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 40px;
- }
-
-  .first-line{
-    position: absolute;
-    left: 550px;
-    bottom: 700px;
-    width: 415px;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.2);
-    
- } 
-
- .table1{
-   position: relative;
-   position: absolute;
-   border: 1px rgba(0, 0, 0, 0.2) solid;
-   bottom: 440px;
-   left: 550px;
-   background-color: rgba(204, 163, 51, 0.103);
-   border-radius: 10px;
-   width: 500px;
-   height: 250px;
- }
-
- .table1 tr{
-   text-align: center;
-   font-family: 'Nanum Pen Script', cursive;
-   font-size: 27px;
-   
- }
-
- /*2table----------------------------------------------------*/
- .second-sub{
-    position: absolute;
-    left: 1270px;
-    width: 250px;
-    bottom: 700px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 40px;
- }
-
-  .second-line{
-    position: absolute;
-    left: 1270px;
-    bottom: 700px;
-    width: 415px;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.2);
-    
- } 
-
- .table2{
-   position: relative;
-   position: absolute;
-   border: 1px rgba(0, 0, 0, 0.2) solid;
-   bottom: 440px;
-   left: 1270px;
-   background-color: rgba(204, 163, 51, 0.103);
-   border-radius: 10px;
-   width: 500px;
-   height: 250px;
- }
-
- .table2 tr{
-   text-align: center;
-   font-family: 'Nanum Pen Script', cursive;
-   font-size: 27px;
- }
-
- /*3table----------------------------------------------------*/
- .third-sub{
-   position: absolute;
-   left: 550px;
-    width: 250px;
-    bottom: 300px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 40px;
+ 
+ /*down 쪽*/
+.down1{
+  margin: 18px;
+  width: 30px;
+  height: 0.3;
+  padding-left: 100px;
 }
 
-.third-line{
-   position: absolute;
-   left: 550px;
-   bottom: 300px;
-   width: 415px;
-   height: 1px;
-   background-color: rgba(0, 0, 0, 0.2);
-   
-} 
+.down2{
+   margin: 18px;
+   width: 30px;
+   height: 0.3;
+   padding-left: 55px;
+ }
 
-.table3{
-  position: relative;
-  position: absolute;
-  border: 1px rgba(0, 0, 0, 0.2) solid;
-  bottom: 40px;
-  left: 550px;
-  background-color: rgba(204, 163, 51, 0.103);
-  border-radius: 10px;
-  width: 500px;
-  height: 250px;
+ .down3{
+   margin: 18px;
+   width: 30px;
+   height: 0.3;
+   padding-left: 80px;
+ }
+
+/* 가로 줄 */
+.line hr{
+   height: 1000px;
 }
 
-.table3 tr{
-  text-align: center;
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 27px;
-  
-}
-
- /*4table----------------------------------------------------*/
-
- .forth-sub{
-   position: absolute;
-   left: 1270px;
-    width: 250px;
-    bottom: 300px;
-    font-family: 'Nanum Pen Script', cursive;
-    font-size: 40px;
-}
-
-.forth-line{
-   position: absolute;
-   left: 1270px;
-   bottom: 300px;
-   width: 415px;
-   height: 1px;
-   background-color: rgba(0, 0, 0, 0.2);
-   
-} 
-
-.table4{
-  position: relative;
-  position: absolute;
-  border: 1px rgba(0, 0, 0, 0.2) solid;
-  bottom: 40px;
-  left: 1270px;
-  background-color: rgba(204, 163, 51, 0.103);
-  border-radius: 10px;
-  width: 500px;
-  height: 250px;
-  font-size: 27px;
-  font-family: 'Nanum Pen Script', cursive;
-}
-
-
-.table4 th{
+.go h3{
+   padding-top : 50px;
    padding-left: 40px;
 }
 
-.table4 hr{
-   height: 9px;
-   background-color: rgba(255, 255, 255, 0.9) ;
-   margin: 0px;
-}
 
-.sub-line1{
-   width: 280px;
-}
-
-.sub-line2{
-   width: 250px;
-}
-
-.sub-line3{
-   width: 100px;
-}
-
-.sub-line4{
-   width: 180px;
-}
-
-/*more--------------------------------------------취미*/
-
-.more-icon{
-   position: absolute;
-   position: relative;
-   left: 5px;
-   top: 17px;
-   width: 50px;
-   height: 50px;
-  
-}
-
-
-#sub-box{
-   position: absolute;
-    font-size: 16px;
-    background-color: #4444444f;
-    border-radius: 10px;
-    width: 80px;
-    height: 200px;
-    top: 65px;
-    left: 310px;
+.id h3{
+   padding-top : 50px;
+   padding-left: 1230px;
    
 }
-
-.git{
-   width: 50px;
-   padding-left: 16px;
-   padding-bottom: 20px;
-   padding-top: 40px;
-}
-
-.notion{
-   width: 60px;
-   padding-left: 10px;
-   padding-bottom: 26px;
-}
-
-#more-box{display: none;}
-#sub-box{
-   display: none;
-}
-
-#more-box:checked~ #sub-box{
-   display: block;
-}
-
-
-
-.hvr-grow {
-   display: inline-block;
-   vertical-align: middle;
-   -webkit-transform: perspective(1px) translateZ(0);
-   transform: perspective(1px) translateZ(0);
-   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-   -webkit-transition-duration: 0.3s;
-   transition-duration: 0.3s;
-   -webkit-transition-property: transform;
-   transition-property: transform;
- }
- .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-   -webkit-transform: scale(1.1);
-   transform: scale(1.1);
- }
+ 
