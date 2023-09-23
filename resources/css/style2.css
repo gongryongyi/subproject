@@ -1,32 +1,48 @@
-*{margin: 0;}
+* {
+   margin: 0;
+}
+
+li {
+   list-style: none;
+}
+ul{  
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   font-size: 20px;
+}
+
 body {
    height: 100vh;
    margin: 0;
    display: flex;
    position: relative;
-   
- }
+
+}
 
 
-.back a{
+.back a {
    color: black;
    text-decoration: none;
 }
 
 
-.back a:hover{
+.back a:hover {
    color: white;
 }
 
-.back{
+.back {
    padding-left: 20px;
    width: 90px;
    font-family: 'Nanum Pen Script', cursive;
-   
+
    font-size: 2.5rem;
 }
 
-.profile{
+.profile {
    position: absolute;
    right: 658px;
    top: 1px;
@@ -34,111 +50,152 @@ body {
    font-size: 7rem;
    margin-top: 40px;
    font-family: 'Nanum Pen Script', cursive;
-   
-   
+
+
 }
-
-/* 왼쪽 사진 ------------------------------*/
-
-.top-icon{
-padding-left: 80px;
-padding-top: 40px;
-width: 80px;
-}
-
+/*---------------nav bar top---------------*/
 .manager{
-  padding-left: 55px;
-  font-size: 20px;
+   padding-left: 0px;
 }
 
-.top hr{
-  width: 260px;
-  margin: 0;
-}
-/*회원관리*/
-.member{
-  display: flex;
+.manager img{
+padding: 30px 0px 20px 85px;
+width: 70px;
 }
 
-h3{
-   padding-top: 20px;
-  padding-left: 20px;
-  display: inline-flex;
+.manager h2{
+   padding: 20px 0px 25px 45px;
+}
+
+/* nav bar ------------------------------*/
+.menu {
+   width: 250px;
+   padding: 0;
+   border: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+.menu>.box {
+   width: 229px;
+   padding-left: 20px;
+   line-height: 70px;
+   border: 1px solid rgba(0, 0, 0, 0.185);
+   border-bottom-color: #0c0b0b00;
+   border-right-color: #0c0b0b00;
+   
+}
+
+.menu>.bottom-box{
+   width: 229px;
+   padding-left: 20px;
+   line-height: 70px;
+   border: 1px solid rgba(0, 0, 0, 0.185);
+   border-right-color: #0c0b0b00;
+}
+
+.menu a {
+   color: #0c0b0b;
+}
+
+.bar>li {
+   line-height: 50px;
+   background-color: #aebdf8;
+}
+
+.bar {
+   height: 0;
+   /*ul의 높이를 안보이게 처리*/
+   overflow: hidden;
+}
+
+.bar > li{
+   border-top: 1px solid rgba(0, 0, 0, 0.185);
+   position: relative;
+   width: 200px;
+   overflow: visible;
+}
+
+.bar > li:hover{
+   background-color: #020c132a;
+   overflow: visible;
+}
+
+.menu > li:hover {
+   background-color: #aebdf8;
+   transition-duration: 0.5s;
+ }
+
+
+/* --------- 서브메뉴 li한개의 높이 ------------*/
+
+
+.menu>li:hover .member {
+   height: 200px;
+   transition-duration: 1s;
+}
+.menu>li:hover .product {
+   height: 100px;
+   transition-duration: 1s;
+}
+.menu>li:hover .order {
+   height: 400px;
+   transition-duration: 1s;
+}
+.menu>li:hover .cancell {
+   height: 150px;
+   transition-duration: 1s;
+}
+.menu>li:hover .calculate {
+   height: 100px;
+   transition-duration: 1s;
+}
+.menu>li:hover .board {
+   height: 250px;
+   transition-duration: 1s;
+}
+.menu>li:hover .statistics {
+   height: 240px;
+   transition-duration: 1s;
+}
+.menu>li:hover .service {
+   height: 100px;
+   transition-duration: 1s;
 }
 
 
-/*상품관리*/
-.product{
-   display: flex;
- }
+/*-----------------  화살표 ---------------*/
 
- /*주문관리*/
-.order{
+h4{
    display: flex;
- }
- 
- /*취소/환불관리*/
-.cancell{
-   display: flex;
- }
-
- 
-
-  /*정산관리*/
-.calculate{
-   display: flex;
- }
- 
-
-  /*게시판관리*/
-.board{
-   display: flex;
- }
+   display: inline-flex;
+}
 
 
-  /*통계분석*/
-.statistics{
-   display: flex;
- }
- 
+.down{
+   position: relative;
+   top: 5px;
 
-  /*서비스관리*/
-.service{
-   display: flex;
- }
- 
+}
 
-  /*쿠폰관리*/
-.cupon{
-   display: flex;
- }
- 
- /*down 쪽*/
 .down1{
-  margin: 18px;
-  width: 30px;
-  height: 0.3;
-  padding-left: 100px;
+   position: relative;
+   left: 126px;
+   display: inline-flex;
 }
 
 .down2{
-   margin: 18px;
-   width: 30px;
-   height: 0.3;
-   padding-left: 55px;
- }
-
- .down3{
-   margin: 18px;
-   width: 30px;
-   height: 0.3;
-   padding-left: 80px;
- }
-
-/* 가로 줄 */
-.line hr{
-   height: 1000px;
+   position: relative;
+   left: 87px;
+   display: inline-flex;
 }
+
+.down3{
+   position: relative;
+   left: 110px;
+   display: inline-flex;
+}
+
+
+/*-------- top -------------*/
 
 .go h3{
    padding-top : 50px;
@@ -151,4 +208,3 @@ h3{
    padding-left: 1230px;
    
 }
- 
